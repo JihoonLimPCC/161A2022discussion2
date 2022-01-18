@@ -1,0 +1,46 @@
+// NOTE: This template is to be used for partner practice ONLY! You must
+// use the required Algorithmic Design Document for all Assignments.
+
+SAMPLE RUN:
+
+Please enter your car's mpg: 22 miles
+Please enter gas price per gallon: 3.5 dollors
+
+Your gas cost for 20 miles is 3.18 dollors!
+
+
+===========================================================
+DESIGN:
+
+a) Inputs
+
+car's mpg as a double
+gas price per gallon as a double
+
+-----------------------------------------------------------
+b) Outputs
+
+gas cost for 20 Miles as a double
+double gasCost20Mile, double gasCost75Mile, double gasCost500Mile
+
+-----------------------------------------------------------
+c) Calculations
+
+birth year = 2021 - age
+
+-----------------------------------------------------------
+d) Pseudocode
+
+DECLARE String name
+DECLARE Integer age
+DECLARE Integer birthYear
+
+DISPLAY "Please enter your name: "
+INPUT name
+
+DISPLAY "Please enter your age: "
+INPUT age
+
+SET birthYear = 2021 - age
+
+DISPLAY "Hello ", name, "! You were born in ", birthYear, "!"
