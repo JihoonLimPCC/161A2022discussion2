@@ -1,7 +1,7 @@
 // NOTE: This template is to be used for partner practice ONLY! You must
 // use the required Algorithmic Design Document for all Assignments.
 /******************************************************************************
-# Author:           Jacob Davis and Luke Jihoon Lim
+# Author:           Jacob Davis and Jihoon Lim
 # Lab:              Discussion #2
 # Date:             January 23, 2022
 # Description:      This progam prompts for a car's mog and gas price per gallon, and calculates gas cost for 20 miles, 75miles and 500 miles
