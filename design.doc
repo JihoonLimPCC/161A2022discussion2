@@ -3,10 +3,12 @@
 
 SAMPLE RUN:
 
-Please enter your car's mpg: 22 miles
-Please enter gas price per gallon: 3.5 dollors
+Please enter your car's mpg: 22
+Please enter gas price per gallon: 3.5
 
 Your gas cost for 20 miles is 3.18 dollors!
+Your gas cost for 75 miles is 11.93 dollors!
+Your gas cost for 500 miles is 79.54 dollors!
 
 
 ===========================================================
@@ -20,27 +22,34 @@ gas price per gallon as a double
 -----------------------------------------------------------
 b) Outputs
 
-gas cost for 20 Miles as a double
-double gasCost20Mile, double gasCost75Mile, double gasCost500Mile
+gas cost for 20 miles as a double
+gas cost for 75 mile as a double
+gas cost for 500 miles as a double
 
 -----------------------------------------------------------
 c) Calculations
 
-birth year = 2021 - age
+gas cost = miles / car's mpg * gas price per gallon 
 
 -----------------------------------------------------------
 d) Pseudocode
 
-DECLARE String name
-DECLARE Integer age
-DECLARE Integer birthYear
+DECLARE Double milePerGallon
+DECLARE Double pricePerGallon
+DECLARE Double gasCost20Miles
+DECLARE Double gasCost75Miles
+DECLARE Double gasCost500Miles
 
-DISPLAY "Please enter your name: "
-INPUT name
+DISPLAY "Please enter your car's mpg: "
+INPUT milePerGallon
 
-DISPLAY "Please enter your age: "
-INPUT age
+DISPLAY "Please enter gas price per gallon: "
+INPUT pricePerGallon
 
-SET birthYear = 2021 - age
+SET gasCost20Miles = 20 / car's mpg * gas price per gallon
+SET gasCost75Miles = 75 / car's mpg * gas price per gallon
+SET gasCost500Miles = 500 / car's mpg * gas price per gallon
 
-DISPLAY "Hello ", name, "! You were born in ", birthYear, "!"
+DISPLAY "Your gas cost for 20 miles is ", gasCost20Miles, " dollors!"
+DISPLAY "Your gas cost for 75 miles is ", gasCost75Miles, " dollors!"
+DISPLAY "Your gas cost for 500 miles is ", gasCost500Miles, " dollors!"

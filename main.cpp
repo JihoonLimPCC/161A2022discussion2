@@ -14,21 +14,25 @@
 
 using namespace std;
 
-const int CURRENT_YEAR = 2021;
-
 int main() {
-  string name = "";
-  int age = 0;
-  int birthYear = 0;
+  double milePerGallon = 0.0;
+  double pricePerGallon = 0.0;
+  double gasCost20Miles = 0.0;
+  double gasCost75Miles = 0.0;
+  double gasCost500Miles = 0.0;
 
-  cout << "Enter your name: ";
-  cin >> name;
-  cout << "Enter your age you will be this year: ";
-  cin >> age;
+  cout << "Please enter your car's mpg: ";
+  cin >> milePerGallon;
+  cout << "Please enter gas price per gallon: ";
+  cin >> pricePerGallon;
 
-  birthYear = CURRENT_YEAR - age;
+  gasCost20Miles = 20 / milePerGallon * pricePerGallon;
+  gasCost75Miles = 75 / milePerGallon * pricePerGallon;
+  gasCost500Miles = 500 / milePerGallon * pricePerGallon;
 
-  cout << "\nHello " << name << "! You were born in " << birthYear << "!" << endl;
+  cout << "\nYour gas cost for 20 miles is " << gasCost20Miles << " dollors!" << endl;
+  cout << "Your gas cost for 75 miles is " << gasCost75Miles << " dollors!" << endl;
+  cout << "Your gas cost for 500 miles is " << gasCost500Miles << " dollors!" << endl;
 
   return 0;
 }
